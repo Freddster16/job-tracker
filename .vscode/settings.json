@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "python3",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "none",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  }
+}
