@@ -1,19 +1,16 @@
 {
+  "git.enabled": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "scm.diffDecorations": "all",
+  "workbench.statusBar.visible": true,
+  "gitlens.currentLine.enabled": true,
+  "gitlens.codeLens.enabled": true,
   "python.defaultInterpreterPath": "python3",
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/*.pyc": true
-  },
   "editor.formatOnSave": true,
   "python.formatting.provider": "black",
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "git.enableSmartCommit": true,
-  "git.autofetch": true,
-  "git.confirmSync": false,
-  "git.postCommitCommand": "none",
-  "scm.diffDecorations": "all",
-  "gitlens.currentLine.enabled": true,
-  "gitlens.codeLens.enabled": true
+  }
 }
